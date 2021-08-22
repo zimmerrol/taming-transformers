@@ -12,7 +12,7 @@ setup(
         'einops',
         'pytorch-lightning',
         'omegaconf',
-        'yaml',
+        'pyyaml',
         'pillow',
         'torchvision',
         'transformers'
