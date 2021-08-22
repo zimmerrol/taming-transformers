@@ -1,5 +1,6 @@
 import os, hashlib
 import requests
+import importlib
 from tqdm import tqdm
 import pytorch_lightning as pl
 
@@ -157,7 +158,7 @@ def get_obj_from_str(string, reload=False):
         importlib.reload(module_imp)
     return getattr(importlib.import_module(module, package=None), cls)
 
-    
+
 class DataModuleFromConfig(pl.LightningDataModule):
     def __init__(self, batch_size, train=None, validation=None, test=None,
                  wrap=False, num_workers=None):
