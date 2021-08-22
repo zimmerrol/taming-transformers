@@ -278,7 +278,7 @@ if __name__ == "__main__":
     #   params:
     #       key: value
     # data:
-    #   target: main.DataModuleFromConfig
+    #   target: taming.util.DataModuleFromConfig
     #   params:
     #      batch_size: int
     #      wrap: bool
@@ -311,7 +311,7 @@ if __name__ == "__main__":
 
     # add cwd for convenience and to make classes in this file available when
     # running as `python main.py`
-    # (in particular `main.DataModuleFromConfig`)
+    # (in particular `taming.util.DataModuleFromConfig`)
     sys.path.append(os.getcwd())
 
     parser = get_parser()
