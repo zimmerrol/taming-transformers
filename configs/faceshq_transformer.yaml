@@ -43,7 +43,7 @@ model:
         down_factor: 16
 
 data:
-  target: main.DataModuleFromConfig
+  target: taming.util.DataModuleFromConfig
   params:
     batch_size: 2
     num_workers: 8
