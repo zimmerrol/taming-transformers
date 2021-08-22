@@ -9,5 +9,12 @@ setup(
         'torch',
         'numpy',
         'tqdm',
+        'einops',
+        'pytorch-lightning',
+        'omegaconf',
+        'yaml',
+        'pillow',
+        'torchvision',
+        'transformers'
     ],
 )
